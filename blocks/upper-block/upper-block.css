@@ -1,0 +1,21 @@
+.upper-block {
+    max-width: 984px;
+    width: 984px;
+    margin: 56px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .upper-block {
+        width: 928px;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .upper-block {
+        width: 100%;
+    }
+}
