@@ -13,6 +13,11 @@
     background-size: cover;
 }
 
+.cover__link:hover {
+        background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/background.jpg);
+        cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
     .cover__link {
         min-height: 640px;

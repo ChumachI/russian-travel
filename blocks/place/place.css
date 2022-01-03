@@ -7,6 +7,7 @@
     "image text";
     column-gap: 40px;
     row-gap: 48px;
+    justify-content: center;
 }
 
 @media screen and (max-width:1024px) {
